@@ -1,6 +1,6 @@
 export default function HeroTitle() {
 	return (
-		<h1 className="w-min overflow-hidden text-6xl font-extrabold text-neutral-800">
+		<h1 className="w-min overflow-hidden text-center text-6xl font-black text-neutral-800 sm:text-8xl">
 			I{" "}
 			<span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
 				build
