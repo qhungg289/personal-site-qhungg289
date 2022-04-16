@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Nav() {
 	return (
-		<nav className="fixed flex w-full items-center justify-between border-b-2 bg-white/50 p-4 backdrop-blur-md">
+		<nav className="fixed top-0 z-10 flex h-20 w-full items-center justify-between border-b-2 bg-white/50 p-4 backdrop-blur-md">
 			<div className="space-x-5">
 				<NavLink href="/" pathName="Home" />
 				<NavLink href="/about" pathName="About" />
@@ -12,7 +12,7 @@ export default function Nav() {
 
 			<div>
 				<Link href={"/portfolio"} passHref>
-					<a className="flex items-center gap-2 rounded-md border-2 border-blue-600 bg-blue-600 py-2 px-4 text-white transition-all hover:bg-transparent hover:text-blue-600">
+					<a className="flex items-center gap-2 rounded-md border-2 border-blue-600 bg-blue-600 px-3 py-2 text-white transition-all hover:bg-transparent hover:text-blue-600">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							className="h-5 w-5"
