@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Nav() {
 	return (
 		<nav className="fixed top-0 z-10 flex h-20 w-full items-center justify-between border-b-2 bg-white/50 p-4 backdrop-blur-md">
-			<div className="space-x-5">
+			<div className="space-x-5 sm:space-x-9">
 				<NavLink href="/" pathName="Home" />
 				<NavLink href="/about" pathName="About" />
 				<NavLink href="/contacts" pathName="Contacts" />
