@@ -13,6 +13,8 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
+			<div className="absolute inset-0 -z-10 bg-hero bg-cover bg-center"></div>
+
 			<Nav />
 			<Container>
 				<div className="flex h-[95%] flex-col justify-end gap-4">
@@ -38,7 +40,7 @@ export default function Home() {
 						</Link>
 
 						<Link href={"/about"} passHref>
-							<a className="rounded-md px-3 py-2 shadow-md transition-all hover:shadow-lg focus:shadow-lg">
+							<a className="rounded-md bg-white px-3 py-2 shadow-md transition-all hover:shadow-lg focus:shadow-lg">
 								About Me
 							</a>
 						</Link>
