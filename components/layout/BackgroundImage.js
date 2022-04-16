@@ -1,8 +1,18 @@
+import { motion } from "framer-motion";
+
 export default function BackgroundImage() {
 	return (
 		<>
-			<div className="absolute inset-0 -z-20 bg-hero bg-cover bg-center"></div>
-			<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-slate-50"></div>
+			<motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				className="absolute inset-0 -z-20 bg-hero bg-cover bg-center"
+			></motion.div>
+			<motion.div
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-slate-50"
+			></motion.div>
 		</>
 	);
 }
