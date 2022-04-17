@@ -5,7 +5,7 @@ export default function HeroTitle() {
 		<motion.h1
 			initial={{ opacity: 0, y: 100 }}
 			animate={{ opacity: 1, y: 0 }}
-			className="w-min overflow-hidden text-center text-6xl font-black text-neutral-800 sm:text-8xl"
+			className="w-min overflow-hidden text-center font-inter text-6xl font-black text-neutral-800 sm:text-8xl"
 		>
 			I{" "}
 			<motion.span
