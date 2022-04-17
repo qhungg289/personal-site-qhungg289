@@ -4,14 +4,14 @@ import Link from "next/link";
 export default function Nav() {
 	return (
 		<nav className="fixed top-0 z-10  h-20 w-full  border-b-2 bg-white/50 py-4 backdrop-blur-md">
-			<div className="container flex items-center justify-between">
-				<div className="space-x-5 sm:space-x-14">
+			<div className="container flex h-full items-center justify-center sm:justify-between">
+				<div className="space-x-8 sm:space-x-14">
 					<NavLink href="/" pathName="Home" />
 					<NavLink href="/about" pathName="About" />
 					<NavLink href="/contacts" pathName="Contacts" />
 				</div>
 
-				<div>
+				<div className="hidden sm:block">
 					<Link href={"/portfolio"} passHref>
 						<a className="flex items-center gap-2 rounded-md border-2 border-blue-600 bg-blue-600 px-3 py-2 text-white transition-all hover:bg-transparent hover:text-blue-600">
 							<svg
