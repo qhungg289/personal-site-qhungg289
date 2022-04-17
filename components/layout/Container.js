@@ -1,3 +1,13 @@
+import { motion } from "framer-motion";
+
 export default function Container({ children }) {
-	return <div className="container mt-20">{children}</div>;
+	return (
+		<motion.div
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			className="container mt-20"
+		>
+			{children}
+		</motion.div>
+	);
 }
