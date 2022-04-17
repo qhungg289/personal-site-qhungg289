@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import Nav from "../components/nav/Nav";
-import { motion } from "framer-motion";
 import Container from "../components/layout/Container";
 import HeroTitle from "../components/typography/HeroTitle";
 import BackgroundImage from "../components/layout/BackgroundImage";
@@ -25,7 +24,7 @@ export default function Home() {
 
 					<div className="flex space-x-6">
 						<Link href={"/portfolio"} passHref>
-							<a className="flex items-center gap-2 rounded-md bg-blue-600 px-3 py-2 text-white shadow-md shadow-blue-500/50 transition-all hover:scale-105 hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-400/50">
+							<a className="flex transform-gpu items-center gap-2 rounded-md bg-blue-600 px-3 py-2 text-white shadow-md shadow-blue-500/50 transition-all hover:-translate-y-1 hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-400/50">
 								View My Works
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +42,7 @@ export default function Home() {
 						</Link>
 
 						<Link href={"/about"} passHref>
-							<a className="rounded-md bg-white px-3 py-2 shadow-md transition-all hover:scale-105 hover:shadow-lg focus:shadow-lg">
+							<a className="transform-gpu rounded-md bg-white px-3 py-2 shadow-md transition-all hover:-translate-y-1 hover:shadow-lg focus:shadow-lg">
 								About Me
 							</a>
 						</Link>
