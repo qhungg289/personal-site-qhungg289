@@ -13,7 +13,7 @@ export default function Document() {
 					rel="stylesheet"
 				/>
 			</Head>
-			<body className="h-full bg-slate-50 font-ibm-plex-sans text-neutral-800">
+			<body className="h-full bg-slate-100 font-ibm-plex-sans text-neutral-800">
 				<Main />
 				<NextScript />
 			</body>

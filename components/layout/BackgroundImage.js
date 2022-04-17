@@ -11,7 +11,7 @@ export default function BackgroundImage() {
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
-				className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-slate-50"
+				className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-slate-100"
 			></motion.div>
 		</>
 	);
