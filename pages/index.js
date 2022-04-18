@@ -28,7 +28,7 @@ export default function Home() {
 		],
 		"Front-end Frameworks": ["React.js", "Next.js", "Vue.js"],
 		"Back-end Frameworks": ["Express.js", "Nest.js", "ASP.NET Core"],
-		Other: ["Git", "Figma"],
+		Other: ["Git", "Figma", "Blender", "Godot"],
 	};
 
 	let infosCards = [];
