@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Nav from "../../components/nav/Nav";
+import Container from "../../components/layout/Container";
+import MainHeader from "../../components/typography/MainHeader";
 
 export default function Contacts() {
 	return (
@@ -11,7 +13,9 @@ export default function Contacts() {
 			</Head>
 
 			<Nav />
-			<h1>Contact</h1>
+			<Container>
+				<MainHeader>Contacts</MainHeader>
+			</Container>
 		</>
 	);
 }
