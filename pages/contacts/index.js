@@ -2,6 +2,7 @@ import Head from "next/head";
 import Nav from "../../components/nav/Nav";
 import Container from "../../components/layout/Container";
 import MainHeader from "../../components/typography/MainHeader";
+import Footer from "../../components/footer/Footer";
 
 export default function Contacts() {
 	return (
@@ -13,9 +14,12 @@ export default function Contacts() {
 			</Head>
 
 			<Nav />
+
 			<Container>
 				<MainHeader>Contacts</MainHeader>
 			</Container>
+
+			<Footer />
 		</>
 	);
 }

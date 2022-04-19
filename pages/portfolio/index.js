@@ -2,6 +2,7 @@ import Head from "next/head";
 import Container from "../../components/layout/Container";
 import Nav from "../../components/nav/Nav";
 import MainHeader from "../../components/typography/MainHeader";
+import Footer from "../../components/footer/Footer";
 
 export default function Portfolio() {
 	return (
@@ -13,9 +14,12 @@ export default function Portfolio() {
 			</Head>
 
 			<Nav />
+
 			<Container>
 				<MainHeader>Portfolio</MainHeader>
 			</Container>
+
+			<Footer />
 		</>
 	);
 }
