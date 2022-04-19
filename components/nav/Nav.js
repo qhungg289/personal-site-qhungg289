@@ -33,6 +33,10 @@ export default function Nav() {
 							exit={{ opacity: 0 }}
 							className="fixed inset-0 z-10 flex flex-col items-center justify-evenly bg-slate-100"
 						>
+							<NavLink href="/" pathName="Home" />
+							<NavLink href="/portfolio" pathName="Portfolio" />
+							<NavLink href="/contacts" pathName="Contacts" />
+
 							<button onClick={() => setIsOpen(false)}>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -49,10 +53,6 @@ export default function Nav() {
 									/>
 								</svg>
 							</button>
-
-							<NavLink href="/" pathName="Home" />
-							<NavLink href="/portfolio" pathName="Portfolio" />
-							<NavLink href="/contacts" pathName="Contacts" />
 						</motion.div>
 					)}
 				</AnimatePresence>
