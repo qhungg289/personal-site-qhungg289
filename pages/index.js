@@ -7,7 +7,6 @@ import InfoCard from "../components/card/InfoCard";
 import SkillCard from "../components/card/SkillCard";
 import Avatar from "../components/image/Avatar";
 import MainHeader from "../components/typography/MainHeader";
-import SectionHeader from "../components/typography/SectionHeader";
 
 export default function Home() {
 	const infos = {
@@ -69,14 +68,18 @@ export default function Home() {
 
 				<hr />
 
-				<SectionHeader accentColor="teal">
+				<motion.h1
+					initial={{ opacity: 0, x: 10 }}
+					animate={{ opacity: 1, x: 0 }}
+					className="relative my-4 flex select-none items-end gap-2 text-2xl font-semibold after:absolute after:left-0 after:bottom-1 after:-z-10 after:h-3 after:w-20 after:bg-teal-200 after:transition-all hover:after:w-32"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						className="inline-flex h-12 w-12"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
-						strokeWidth={2}
+						strokeWidth={1.75}
 					>
 						<path
 							strokeLinecap="round"
@@ -85,19 +88,23 @@ export default function Home() {
 						/>
 					</svg>
 					About Me
-				</SectionHeader>
+				</motion.h1>
 				<GridCardContainer>{infosCards}</GridCardContainer>
 
 				<hr />
 
-				<SectionHeader accentColor="fuchsia">
+				<motion.h1
+					initial={{ opacity: 0, x: 10 }}
+					animate={{ opacity: 1, x: 0 }}
+					className="relative my-4 flex select-none items-end gap-2 text-2xl font-semibold after:absolute after:left-0 after:bottom-1 after:-z-10 after:h-3 after:w-20 after:bg-fuchsia-200 after:transition-all hover:after:w-32"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						className="inline-flex h-12 w-12"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
-						strokeWidth={2}
+						strokeWidth={1.75}
 					>
 						<path
 							strokeLinecap="round"
@@ -106,7 +113,7 @@ export default function Home() {
 						/>
 					</svg>
 					Skills
-				</SectionHeader>
+				</motion.h1>
 				<GridCardContainer>{skillsCards}</GridCardContainer>
 			</Container>
 		</>
