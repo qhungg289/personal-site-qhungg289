@@ -5,7 +5,7 @@ export default function Container({ children }) {
 		<motion.div
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
-			className="container mt-6 max-w-3xl"
+			className="container mt-6 max-w-3xl divide-y"
 		>
 			{children}
 		</motion.div>
