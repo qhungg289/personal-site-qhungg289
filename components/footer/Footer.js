@@ -38,7 +38,7 @@ export default function Footer() {
 
 			<div className="text-sm text-neutral-600">
 				<p>© Hung Duong Quang</p>
-				<p>Using Next.js and deploy on Vercel.</p>
+				<p>Made with Next.js and deploy on Vercel.</p>
 			</div>
 		</footer>
 	);
