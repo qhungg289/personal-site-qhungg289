@@ -25,7 +25,7 @@ export default function Portfolio() {
 
 				<GridCardContainer>
 					<PortfolioCard>
-						<div className="space-y-2">
+						<div className="mb-4 space-y-2">
 							<PortfolioCardHeading>Member Only</PortfolioCardHeading>
 
 							<PortfolioCardContent>
@@ -49,7 +49,7 @@ export default function Portfolio() {
 					</PortfolioCard>
 
 					<PortfolioCard>
-						<div className="space-y-2">
+						<div className="mb-4 space-y-2">
 							<PortfolioCardHeading>Blog API</PortfolioCardHeading>
 
 							<PortfolioCardContent>
@@ -69,12 +69,13 @@ export default function Portfolio() {
 					</PortfolioCard>
 
 					<PortfolioCard>
-						<div className="space-y-2">
+						<div className="mb-4 space-y-2">
 							<PortfolioCardHeading>Weather</PortfolioCardHeading>
 
 							<PortfolioCardContent>
-								Simple front-end to consume Open Weather API and display some
-								basic information about current weather at specific location.
+								Simple front-end to consume <b>Open Weather API</b> and display
+								some basic information about current weather at specific
+								location.
 							</PortfolioCardContent>
 						</div>
 
@@ -89,7 +90,7 @@ export default function Portfolio() {
 					</PortfolioCard>
 
 					<PortfolioCard>
-						<div className="space-y-2">
+						<div className="mb-4 space-y-2">
 							<PortfolioCardHeading>Wordle Clone</PortfolioCardHeading>
 
 							<PortfolioCardContent>
@@ -111,7 +112,7 @@ export default function Portfolio() {
 					</PortfolioCard>
 
 					<PortfolioCard>
-						<div className="space-y-2">
+						<div className="mb-4 space-y-2">
 							<PortfolioCardHeading>Battleship</PortfolioCardHeading>
 
 							<PortfolioCardContent>
@@ -133,7 +134,7 @@ export default function Portfolio() {
 					</PortfolioCard>
 
 					<PortfolioCard>
-						<div className="space-y-2">
+						<div className="mb-4 space-y-2">
 							<PortfolioCardHeading>Personal Site</PortfolioCardHeading>
 
 							<PortfolioCardContent>
