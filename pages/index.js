@@ -13,7 +13,7 @@ export default function Home() {
 	const infos = {
 		Studying: "Information Technology",
 		Country: "Vietnam",
-		City: "Can Tho",
+		City: "Chau Doc",
 	};
 
 	const skills = {
