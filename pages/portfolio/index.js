@@ -1,8 +1,6 @@
 import Head from "next/head";
-import Container from "../../components/layout/Container";
-import Nav from "../../components/nav/Nav";
+import Layout from "../../components/layout/Layout";
 import MainHeader from "../../components/typography/MainHeader";
-import Footer from "../../components/footer/Footer";
 import GridCardContainer from "../../components/layout/GridCardContainer";
 import PortfolioCard from "../../components/card/PortfolioCard/PortfolioCard";
 import PortfolioCardLink from "../../components/card/PortfolioCard/PortfolioCardLink";
@@ -18,9 +16,7 @@ export default function Portfolio() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Nav />
-
-			<Container>
+			<Layout>
 				<MainHeader>Portfolio</MainHeader>
 
 				<GridCardContainer>
@@ -152,9 +148,7 @@ export default function Portfolio() {
 						</div>
 					</PortfolioCard>
 				</GridCardContainer>
-			</Container>
-
-			<Footer />
+			</Layout>
 		</>
 	);
 }

@@ -1,8 +1,6 @@
 import Head from "next/head";
-import Nav from "../../components/nav/Nav";
-import Container from "../../components/layout/Container";
+import Layout from "../../components/layout/Layout";
 import MainHeader from "../../components/typography/MainHeader";
-import Footer from "../../components/footer/Footer";
 
 export default function Contacts() {
 	return (
@@ -13,9 +11,7 @@ export default function Contacts() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Nav />
-
-			<Container>
+			<Layout>
 				<MainHeader>Contacts</MainHeader>
 
 				<h2 className="text-2xl font-medium">Get in touch with me</h2>
@@ -61,9 +57,7 @@ export default function Contacts() {
 						</a>
 					</li>
 				</ul>
-			</Container>
-
-			<Footer />
+			</Layout>
 		</>
 	);
 }

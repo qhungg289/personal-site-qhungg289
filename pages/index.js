@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { motion } from "framer-motion";
+import Layout from "../components/layout/Layout";
 import Nav from "../components/nav/Nav";
 import Container from "../components/layout/Container";
 import GridCardContainer from "../components/layout/GridCardContainer";
@@ -51,9 +52,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Nav />
-
-			<Container>
+			<Layout>
 				<div className="md:flex md:flex-row-reverse md:justify-between">
 					<Avatar />
 
@@ -117,9 +116,7 @@ export default function Home() {
 					</motion.h1>
 					<GridCardContainer>{skillsCards}</GridCardContainer>
 				</div>
-			</Container>
-
-			<Footer />
+			</Layout>
 		</>
 	);
 }

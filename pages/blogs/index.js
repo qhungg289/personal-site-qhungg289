@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Nav from "../../components/nav/Nav";
-import Container from "../../components/layout/Container";
-import Footer from "../../components/footer/Footer";
+import Layout from "../../components/layout/Layout";
 import MainHeader from "../../components/typography/MainHeader";
 
 export default function Blogs() {
@@ -13,13 +11,9 @@ export default function Blogs() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Nav />
-
-			<Container>
+			<Layout>
 				<MainHeader>Blogs</MainHeader>
-			</Container>
-
-			<Footer />
+			</Layout>
 		</>
 	);
 }
