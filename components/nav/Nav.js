@@ -61,6 +61,7 @@ export default function Nav() {
 					<NavLink href="/" pathName="Home" />
 					<NavLink href="/portfolio" pathName="Portfolio" />
 					<NavLink href="/contacts" pathName="Contacts" />
+					<NavLink href="/blogs" pathName="Blogs" />
 				</div>
 			</div>
 		</nav>
