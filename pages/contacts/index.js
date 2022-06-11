@@ -14,8 +14,6 @@ export default function Contacts() {
 			<Layout>
 				<MainHeader>Contacts</MainHeader>
 
-				<h2 className="text-2xl font-medium">Get in touch with me</h2>
-
 				<ul className="mt-4 list-inside list-disc">
 					<li>
 						Phone number:{" "}
