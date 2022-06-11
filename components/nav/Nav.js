@@ -34,6 +34,7 @@ export default function Nav() {
 							className="fixed inset-0 z-10 flex flex-col items-center justify-evenly bg-slate-100"
 						>
 							<NavLink href="/" pathName="Home" />
+							<NavLink href="/about" pathName="About" />
 							<NavLink href="/portfolio" pathName="Portfolio" />
 							<NavLink href="/contacts" pathName="Contacts" />
 
@@ -59,6 +60,7 @@ export default function Nav() {
 
 				<div className="hidden space-x-3 sm:space-x-10 md:block">
 					<NavLink href="/" pathName="Home" />
+					<NavLink href="/about" pathName="About" />
 					<NavLink href="/portfolio" pathName="Portfolio" />
 					<NavLink href="/contacts" pathName="Contacts" />
 				</div>
