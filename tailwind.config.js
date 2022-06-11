@@ -16,7 +16,6 @@ module.exports = {
 			},
 		},
 		fontFamily: {
-			inter: ["Inter", "sans-serif"],
 			"ibm-plex-sans": ["IBM Plex Sans", "sans-serif"],
 		},
 		container: {
