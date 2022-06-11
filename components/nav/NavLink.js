@@ -10,7 +10,7 @@ export default function NavLink({ href, pathName }) {
 				className={
 					router.pathname == href
 						? "rounded-md p-2 text-base font-medium text-blue-600 transition-all hover:bg-slate-200"
-						: "rounded-md p-2 text-base font-normal text-neutral-500 transition-all hover:bg-slate-200 hover:text-neutral-800"
+						: "rounded-md p-2 text-base font-normal text-slate-500 transition-all hover:bg-slate-200 hover:text-slate-800"
 				}
 			>
 				{pathName}
