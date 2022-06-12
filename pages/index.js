@@ -28,8 +28,13 @@ export default function Home() {
 						<p className="mb-6 text-slate-500 md:w-[45ch]">
 							A passionate college student who love programming and technology
 							in general. Especially about{" "}
-							<span className="font-medium italic text-blue-500">Web</span> and{" "}
-							<span className="font-medium italic text-blue-500">Game</span>{" "}
+							<span className="font-medium text-blue-500 underline decoration-dashed underline-offset-2">
+								Web
+							</span>{" "}
+							and{" "}
+							<span className="font-medium text-blue-500 underline decoration-dashed underline-offset-2">
+								Game
+							</span>{" "}
 							development.
 						</p>
 						<div>
