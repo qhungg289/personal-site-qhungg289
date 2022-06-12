@@ -15,10 +15,10 @@ module.exports = {
 			animation: {
 				breath: "breath 1s ease-in-out infinite",
 			},
-		},
-		fontFamily: {
-			"ibm-plex-sans": ["IBM Plex Sans", "sans-serif"],
-			"ibm-plex-mono": ["IBM Plex Mono", "monospace"],
+			fontFamily: {
+				"ibm-plex-sans": ["IBM Plex Sans", "sans-serif"],
+				"ibm-plex-mono": ["IBM Plex Mono", "monospace"],
+			},
 		},
 		container: {
 			center: true,

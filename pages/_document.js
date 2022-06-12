@@ -13,7 +13,7 @@ export default function Document() {
 					rel="stylesheet"
 				></link>
 			</Head>
-			<body className="relative bg-slate-100 font-ibm-plex-sans text-slate-800">
+			<body className="relative bg-slate-100 font-ibm-plex-sans text-slate-800 antialiased">
 				<Main />
 				<NextScript />
 			</body>
