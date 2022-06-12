@@ -17,6 +17,7 @@ module.exports = {
 		},
 		fontFamily: {
 			"ibm-plex-sans": ["IBM Plex Sans", "sans-serif"],
+			"ibm-plex-mono": ["IBM Plex Mono", "monospace"],
 		},
 		container: {
 			center: true,
