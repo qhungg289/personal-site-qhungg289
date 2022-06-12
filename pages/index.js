@@ -14,7 +14,7 @@ export default function Home() {
 			</Head>
 
 			<Layout>
-				<div className="flex min-h-[calc(100vh-6rem)] flex-col justify-center md:flex-row-reverse md:items-center md:justify-between">
+				<div className="flex min-h-[calc(100vh-6rem)] flex-col justify-center md:flex-row md:items-center md:justify-between">
 					<Avatar />
 
 					<div>
@@ -34,7 +34,7 @@ export default function Home() {
 						</p>
 						<div>
 							<Link href="/about" passHref>
-								<a className="group flex w-max flex-row items-center rounded-md bg-blue-600 px-6 py-2 font-semibold text-white transition-all hover:opacity-80">
+								<a className="group flex w-max flex-row items-center rounded-full bg-blue-600 px-6 py-2 font-semibold text-white shadow-md shadow-blue-600/50 transition-all hover:opacity-80">
 									<span>About Me</span>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
