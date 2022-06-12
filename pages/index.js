@@ -57,6 +57,8 @@ export default function Home() {
 							</Link>
 						</div>
 					</div>
+
+					<div className="absolute -left-32 bottom-80 -z-10 h-64 w-64 rounded-full bg-slate-200 md:left-0 md:-bottom-10 md:rounded-none md:rounded-tr-full"></div>
 				</div>
 			</Layout>
 		</>
